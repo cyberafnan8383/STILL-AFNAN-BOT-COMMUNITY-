@@ -45,7 +45,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
  const phone = msg[5].trim() || " ";
  const color = msg[6].trim() || "white";
  api.sendMessage(
- `Processing your cover,Wait koro baby < 😘`,
+ `Processing your cover,Wait koro ai vitor edit hocca < 😘`,
  event.threadID,
  (err, info) =>
  setTimeout(() => {
